@@ -8,7 +8,7 @@ spec:
         repo: tfsarlo/digital-ocean-app_render_strapi
       name: strapi
       build_command: yarn install && yarn build
-      run_command: yarn start
+      run_command: yarn develop
       envs:
         - key: JWT_SECRET
         - key: ADMIN_JWT_SECRET
